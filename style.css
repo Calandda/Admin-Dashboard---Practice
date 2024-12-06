@@ -1,7 +1,25 @@
 body{
 	margin: 0;
 	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-template-rows: 1fr 5fr;
+	height: 100vh;
 }
 nav{
+	grid-row: 1/3;
+	grid-column: 1/2;
 	background-color: hsl(212, 100%, 60%);
+}
+header{
+	background-color: hsl(0, 100%, 100%);
+	grid-column: 2/-1;
+	grid-row: 1/2;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+main{
+	background-color: hsl(0, 0%, 90%);
+	grid-column: 2/-1;
+	grid-row: 2/-1;
 }
