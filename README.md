@@ -6,7 +6,6 @@ Admin Dashboard - The Odin Project Exercise
 	The Odin Project - Admin Dashboard Exercise
 		[https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard]
 	
-	
 	Dashboard SVG icon - Pictogrammers
 		[https://pictogrammers.com/library/mdi/icon/view-dashboard/]
 		
@@ -33,3 +32,12 @@ Admin Dashboard - The Odin Project Exercise
 	
 	Shield Check - Pictogrammers
 		[https://pictogrammers.com/library/mdi/icon/shield-check/]
+		
+	Magnify - Pictogrammers	
+		[https://pictogrammers.com/library/mdi/icon/magnify/]
+		
+	Grey fur kitten by Vadim B on Pexels
+		[https://www.pexels.com/photo/grey-fur-kitten-127028/]
+		
+	Bell ring - Pictogrammers
+		[https://pictogrammers.com/library/mdi/icon/bell-ring-outline/]
