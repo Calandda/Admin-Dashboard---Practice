@@ -41,3 +41,12 @@ Admin Dashboard - The Odin Project Exercise
 		
 	Bell ring - Pictogrammers
 		[https://pictogrammers.com/library/mdi/icon/bell-ring-outline/]
+		
+	Star Plus Outline - Pictogrammers
+		[https://pictogrammers.com/library/mdi/icon/star-plus-outline/]
+		
+	Eye Plus Outline - Pictogrammers
+		[https://pictogrammers.com/library/mdi/icon/eye-plus-outline/]
+		
+	share variant outline - Pictogrammers
+		[https://pictogrammers.com/library/mdi/icon/share-variant-outline/]

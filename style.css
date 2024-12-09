@@ -6,6 +6,13 @@
 	font-size: 18px;
 	margin-top: -1px;
 }
+.fontHeader2{
+	font-weight: 700;
+	font-size: 12px;
+}
+.fontParagraphSmall{
+	font-size: 12px;
+}
 body{
 	margin: 0;
 	padding: 0;
@@ -137,32 +144,57 @@ main{
 			margin-top: -1px;}
 			
 		.sectionProject > article{
+			display: grid;
 			border-left: 8px solid hsl(40, 100%, 50%);
+			grid-template-columns: 1fr;
+			grid-template-rows: 80% 20%;
 			margin-bottom: 20px;
-			padding: 20px;}
+			}
 			
 			.sectionProject > article > p{
-				padding-right: 140px;}
+				padding: 0px 140px 0px 0px;
+				margin: 0px;}
 				.sectionProject > article > p > span{
 					font-weight: 700;
 					font-size: 18px;}
+			.sectionProject > article > div{
+				display: grid;
+				grid-auto-flow: column;
+				justify-content: end;
+				grid-gap: 20px;
+				}
 	.sectionAnnouncements{
 		display: grid;
 		grid-template-rows: 10%;
 		grid-template-columns: 90%;
-		grid-auto-rows: 90%;
-		}
+		grid-auto-rows: 91%;}
 		.sectionAnnouncements > article{
-			
 		}
 	.sectionTrending{
 		display: grid;
 		grid-template-columns: 90%;
-		grid-template-rows: 10% 91%;
-	}
+		grid-template-rows: 10% 91%;}
+		
+		.sectionTrending > article > p{
+			padding: 20px;
+		}
 			
 .articleMain{
 	background: hsl(0, 100%, 100%);
 	border-radius: 6px;
 	box-shadow: 6px 6px hsla(0, 0%,0%, 0.1);
+	padding: 20px;
+}
+
+hr{
+	color: hsla(0, 0%,0%,0.2);
+}
+
+.paddingTwenty{
+	padding: 0px 14px 0px 14px;
+}
+
+.iconButton{
+	width: 30px;
+	height: 30px;
 }
