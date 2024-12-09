@@ -143,18 +143,23 @@ main{
 			
 			.sectionProject > article > p{
 				padding-right: 140px;}
-				
 				.sectionProject > article > p > span{
-				font-weight: 700;
-				font-size: 18px;}
+					font-weight: 700;
+					font-size: 18px;}
 	.sectionAnnouncements{
 		display: grid;
 		grid-template-rows: 10%;
+		grid-template-columns: 90%;
 		grid-auto-rows: 90%;
 		}
 		.sectionAnnouncements > article{
 			
 		}
+	.sectionTrending{
+		display: grid;
+		grid-template-columns: 90%;
+		grid-template-rows: 10% 91%;
+	}
 			
 .articleMain{
 	background: hsl(0, 100%, 100%);
